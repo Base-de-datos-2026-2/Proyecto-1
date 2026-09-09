@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F61839D-F2AF-14C5-585D-CB56089F346E" name="Vehículo">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:30:45 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="placa" id="44A59A72-CE33-4EBC-2D59-8CD5A7C7D2FD">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:30:53 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="A52E678D-17F7-891A-F535-3D80680BFE26">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:30:59 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="D81D86CB-F595-EA37-3C09-9E8CAF65AC8E">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:31:11 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="7EBD141D-2BD5-DB7F-4E6B-EA0AF228502A">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="8F5C590A-2985-9E7A-8589-83E033785B69">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:31:22 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cupos_disponibles" id="A44225E7-A583-18C8-4DD6-D09179399645">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:31:28 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conductor" id="E35CF008-0625-A418-850B-A919B84FEF18">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:31:33 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

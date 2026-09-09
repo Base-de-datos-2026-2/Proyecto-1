@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6635F72C-1A34-D36E-E161-7DE22BA682FE" name="Viaje">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:31:47 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_viaje" id="6DE8F25E-766C-C918-D8CB-114FAC2198E0">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:31:54 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_hora_salida" id="5BD3D5B9-90A3-D6C8-C4F3-D6F6C185812B">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:31:59 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="punto_origen" id="273106C6-664F-569A-B40F-65862B213D0F">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:32:00 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ruta_general" id="DCAF2F7C-FCE2-0DE9-666A-8ABEBED452FA">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:32:18 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tarifa" id="CFD5165E-31EF-8F3D-6F22-D57EFCC6C80A">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:32:23 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="4E09D789-E78E-0B36-9F87-24A093E977EF">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:32:30 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa_vehiculo" id="07829536-981B-0DE5-A37A-3C4F0AD0F6FB">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:32:36 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conductor" id="255E4981-EC84-DC12-3F93-FD2F8B928EE8">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-09 23:32:41 UTC</createdTime>
+<ownerDesignName>Parte 1 - Entrega 1</ownerDesignName>
+<engineerTo>
+<item key="C528C45B-A38B-8608-285A-5A3FF51D9E07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
